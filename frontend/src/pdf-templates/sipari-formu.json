@@ -1,0 +1,413 @@
+{
+  "id": "report-order-1792683068289",
+  "name": "Sipariş Formu",
+  "orientation": "portrait",
+  "pageSize": "a4",
+  "elements": [
+    {
+      "id": "pdf-mvjp7o8x-0",
+      "type": "header",
+      "x": 20,
+      "y": 25,
+      "width": 170,
+      "height": 10,
+      "props": {
+        "text": "Sipariş Formu",
+        "fontSize": 16,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-1",
+      "type": "divider",
+      "x": 20,
+      "y": 39,
+      "width": 170,
+      "height": 2,
+      "props": {
+        "lineColor": "#999999"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-2",
+      "type": "textbox",
+      "x": 20,
+      "y": 45,
+      "width": 170,
+      "height": 7,
+      "props": {
+        "text": "Sipariş Bilgileri",
+        "fontSize": 12,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-3",
+      "type": "textbox",
+      "x": 20,
+      "y": 56,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Order No",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-4",
+      "type": "textbox",
+      "x": 72,
+      "y": 56,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.orderNo",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-5",
+      "type": "textbox",
+      "x": 20,
+      "y": 66,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Order Date",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-6",
+      "type": "textbox",
+      "x": 72,
+      "y": 66,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.orderDate",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-7",
+      "type": "textbox",
+      "x": 20,
+      "y": 76,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Delivery Date",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-8",
+      "type": "textbox",
+      "x": 72,
+      "y": 76,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.deliveryDate",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-9",
+      "type": "textbox",
+      "x": 20,
+      "y": 86,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Discount Rate",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-10",
+      "type": "textbox",
+      "x": 72,
+      "y": 86,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.discountRate",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-11",
+      "type": "textbox",
+      "x": 20,
+      "y": 96,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Vat Rate",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-12",
+      "type": "textbox",
+      "x": 72,
+      "y": 96,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.vatRate",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-13",
+      "type": "textbox",
+      "x": 20,
+      "y": 106,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Subtotal",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-14",
+      "type": "textbox",
+      "x": 72,
+      "y": 106,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.subtotal",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-15",
+      "type": "textbox",
+      "x": 20,
+      "y": 116,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Discount Amount",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-16",
+      "type": "textbox",
+      "x": 72,
+      "y": 116,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.discountAmount",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-17",
+      "type": "textbox",
+      "x": 20,
+      "y": 126,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Vat Amount",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-18",
+      "type": "textbox",
+      "x": 72,
+      "y": 126,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.vatAmount",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-19",
+      "type": "textbox",
+      "x": 20,
+      "y": 136,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Grand Total",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-20",
+      "type": "textbox",
+      "x": 72,
+      "y": 136,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.grandTotal",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-21",
+      "type": "textbox",
+      "x": 20,
+      "y": 146,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Status",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-22",
+      "type": "textbox",
+      "x": 72,
+      "y": 146,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.status",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-23",
+      "type": "textbox",
+      "x": 20,
+      "y": 156,
+      "width": 50,
+      "height": 6,
+      "props": {
+        "text": "Notes",
+        "fontSize": 10,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-24",
+      "type": "textbox",
+      "x": 72,
+      "y": 156,
+      "width": 118,
+      "height": 6,
+      "props": {
+        "text": "",
+        "binding": "data.notes",
+        "fontSize": 10
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-25",
+      "type": "textbox",
+      "x": 20,
+      "y": 168,
+      "width": 170,
+      "height": 7,
+      "props": {
+        "text": "Sipariş Kalemleri",
+        "fontSize": 12,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "pdf-mvjp7o8x-26",
+      "type": "table",
+      "x": 20,
+      "y": 179,
+      "width": 170,
+      "height": 84,
+      "props": {
+        "binding": "orderLines",
+        "columns": [
+          {
+            "key": "description",
+            "label": "Description",
+            "width": 24
+          },
+          {
+            "key": "quantity",
+            "label": "Quantity",
+            "width": 24
+          },
+          {
+            "key": "unit",
+            "label": "Unit",
+            "width": 24
+          },
+          {
+            "key": "unitPrice",
+            "label": "Unit Price",
+            "width": 24
+          },
+          {
+            "key": "discountRate",
+            "label": "Discount Rate",
+            "width": 24
+          },
+          {
+            "key": "vatRate",
+            "label": "Vat Rate",
+            "width": 24
+          },
+          {
+            "key": "totalPrice",
+            "label": "Total Price",
+            "width": 24
+          }
+        ],
+        "headerBgColor": "#f0f0f0",
+        "borderColor": "#cccccc",
+        "rowHeight": 7
+      }
+    }
+  ],
+  "apiBinding": {
+    "method": "GET",
+    "url": "api/services/app/Order/GetReportData?id={{id}}",
+    "params": [
+      {
+        "name": "id"
+      }
+    ]
+  },
+  "headerConfig": {
+    "enabled": true,
+    "height": 15,
+    "text": "Sipariş Formu",
+    "fontSize": 9
+  },
+  "pageNumberConfig": {
+    "enabled": true
+  }
+}

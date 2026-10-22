@@ -1,0 +1,66 @@
+[
+  {
+    "id": "flow_1792672356591_1",
+    "name": "Flow 1",
+    "edges": [
+      {
+        "id": "edge_1792672374987_5ni",
+        "sourceNodeId": "flow_1792672360619_2",
+        "targetNodeId": "flow_1792672372241_3"
+      },
+      {
+        "id": "edge_1792672398694_wzj",
+        "sourceNodeId": "flow_1792672372241_3",
+        "targetNodeId": "flow_1792672396491_4"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "flow_1792672360619_2",
+        "type": "trigger",
+        "label": "On Create: Company",
+        "trigger": {
+          "type": "on-create",
+          "resourceName": "Product"
+        },
+        "position": {
+          "x": 168,
+          "y": -61
+        }
+      },
+      {
+        "id": "flow_1792672372241_3",
+        "type": "action",
+        "label": "API Call",
+        "action": {
+          "type": "api-call",
+          "config": {
+            "url": "asdada.com/getotp",
+            "method": "GET"
+          }
+        },
+        "position": {
+          "x": 148.5,
+          "y": 69
+        }
+      },
+      {
+        "id": "flow_1792672396491_4",
+        "type": "condition",
+        "label": "Condition",
+        "position": {
+          "x": 150.5,
+          "y": 181.5
+        },
+        "condition": {
+          "logic": "and",
+          "rules": []
+        }
+      }
+    ],
+    "enabled": true,
+    "createdAt": "2026-10-22T12:32:36.591Z",
+    "updatedAt": "2026-10-22T12:33:18.695Z",
+    "variables": []
+  }
+]
